@@ -16,7 +16,7 @@
     align-items: center;
     flex-direction: column;
     margin-bottom: 6rem;
-    background-color: #f2f2f2; /* Add a light background color */
+    background-color: #f2f2f2;
   }
   
   .search-bar {
@@ -36,7 +36,7 @@
     height: 25px;
     padding: 7px;
     border-radius: 50%;
-    transition: background-color 0.3s ease; /* Add a smooth transition */
+    transition: background-color 0.3s ease; 
   }
   
   .search-icon:hover {
@@ -51,7 +51,7 @@
     font-size: 20px;
     width: 20rem;
     height: 2rem;
-    transition: border-color 0.3s ease; /* Add a smooth transition */
+    transition: border-color 0.3s ease; 
   }
   
   .search-bar input:focus {
@@ -62,7 +62,7 @@
     padding: 3rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Center news items horizontally */
+    justify-content: center; 
     margin-bottom: 2rem;
   }
   
@@ -75,11 +75,11 @@
     height: 30rem;
     margin: 1rem 1rem;
     border-radius: 10px;
-    transition: transform 0.3s ease; /* Add a smooth transition */
+    transition: transform 0.3s ease;
   }
   
   .news-section:hover {
-    transform: scale(1.05); /* Enlarge the news item on hover */
+    transform: scale(1.05); 
   }
   
   @media (max-width: 600px) and (min-width: 400px) {
@@ -101,13 +101,13 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    transition: color 0.3s ease; /* Add a smooth color transition */
+    transition: color 0.3s ease;
   }
   
   .image img {
     margin: 1rem 0;
     border-radius: 10px;
-    max-width: 100%; /* Ensure images don't overflow the container */
-    height: auto; /* Preserve aspect ratio */
+    max-width: 100%; 
+    height: auto; 
   }
   
