@@ -16,10 +16,14 @@ function App() {
 
       const url = `https://newsapi.org/v2/top-headlines?q=${query}&apiKey=${apiKey}`;
 
-      const response = await fetch(url);
-      const data = await response.json();
-      setNews(data.articles);
-      console.log(data.articles);
+      try{
+        const response = await fetch(url);
+        const data = await response.json();
+        setNews(data.articles);
+        console.log(data.articles);
+      }catch(err){
+        console.log(err);
+      }
     };
     fetchApi();
   }, [effect]);
@@ -45,3 +49,4 @@ function App() {
 }
 
 export default App;
+
