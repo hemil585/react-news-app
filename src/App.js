@@ -7,7 +7,7 @@ function App() {
   const [news, setNews] = useState([]);
 
   const [search, setSearch] = useState('');
-  const [query, setQuery] = useState('Crypto');
+  const [query, setQuery] = useState('Crime');
   const [effect, setEffect] = useState('')
 
   useEffect(() => {
