@@ -22,7 +22,7 @@ function App() {
         setNews(data.articles);
         console.log(data.articles);
       }catch(err){
-        console.log(err);
+        console.error('response is not ok, try again after 5 hours');
       }
     };
     fetchApi();
